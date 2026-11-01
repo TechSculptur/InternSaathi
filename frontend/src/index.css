@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :focus-visible {
+    outline: 3px solid #059669;
+    outline-offset: 2px;
+  }
+}
+
+/* Ensure minimum touch target size of 44px-48px for interactive controls */
+.touch-target {
+  min-height: 48px;
+  min-width: 48px;
+}

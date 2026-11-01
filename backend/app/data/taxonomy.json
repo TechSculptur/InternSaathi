@@ -1,0 +1,211 @@
+{
+  "education_categories": [
+    { "code": "tenth_pass", "label_en": "10th Pass / Secondary", "label_hi": "10वीं पास / माध्यमिक" },
+    { "code": "twelfth_pass", "label_en": "12th Pass / Higher Secondary", "label_hi": "12वीं पास / उच्च माध्यमिक" },
+    { "code": "iti", "label_en": "ITI / Vocational Certificate", "label_hi": "आईटीआई / व्यावसायिक प्रमाण पत्र" },
+    { "code": "diploma", "label_en": "Polytechnic / Diploma", "label_hi": "पॉलीटेक्निक / डिप्लोमा" },
+    { "code": "bachelors", "label_en": "Bachelor's Degree (Graduate)", "label_hi": "स्नातक डिग्री (ग्रेजुएट)" },
+    { "code": "masters", "label_en": "Master's Degree (Post Graduate)", "label_hi": "परास्नातक डिग्री (पोस्ट ग्रेजुएट)" }
+  ],
+  "sectors": [
+    { "code": "it_software", "name_en": "IT & Digital Services", "name_hi": "आईटी एवं डिजिटल सेवाएं" },
+    { "code": "agriculture", "name_en": "Agriculture & Rural Tech", "name_hi": "कृषि एवं ग्रामीण तकनीक" },
+    { "code": "healthcare", "name_en": "Healthcare & Allied Services", "name_hi": "स्वास्थ्य सेवा एवं संबद्ध सेवाएं" },
+    { "code": "banking_finance", "name_en": "Banking, Finance & Accounting", "name_hi": "बैंकिंग, वित्त एवं लेखा" },
+    { "code": "retail_logistics", "name_en": "Logistics & Retail Operations", "name_hi": "रसद एवं खुदरा संचालन" },
+    { "code": "manufacturing_automotive", "name_en": "Manufacturing & Automotive", "name_hi": "विनिर्माण एवं ऑटोमोटिव" },
+    { "code": "renewable_energy", "name_en": "Renewable Energy & Solar", "name_hi": "नवीकरणीय ऊर्जा एवं सौर" },
+    { "code": "tourism_hospitality", "name_en": "Tourism & Hospitality", "name_hi": "पर्यटन एवं आतिथ्य" },
+    { "code": "handicrafts_textiles", "name_en": "Handicrafts & Apparel", "name_hi": "हस्तशिल्प एवं परिधान" },
+    { "code": "education_skilling", "name_en": "Education & Community Skilling", "name_hi": "शिक्षा एवं सामुदायिक कौशल" }
+  ],
+  "skills": [
+    { "code": "data_entry", "name_en": "Data Entry & Typing", "name_hi": "डेटा प्रविष्टि एवं टाइपिंग", "sector_code": "it_software" },
+    { "code": "ms_excel", "name_en": "MS Excel & Spreadsheets", "name_hi": "एमएस एक्सेल और स्प्रेडशीट", "sector_code": "it_software" },
+    { "code": "communication_skills", "name_en": "Communication & Spoken Skills", "name_hi": "संवाद और मौखिक कौशल", "sector_code": "it_software" },
+    { "code": "python", "name_en": "Python Programming", "name_hi": "पायथन प्रोग्रामिंग", "sector_code": "it_software" },
+    { "code": "javascript", "name_en": "Web Basics / JavaScript", "name_hi": "वेब बेसिक्स / जावास्क्रिप्ट", "sector_code": "it_software" },
+    { "code": "customer_support", "name_en": "Customer Support & Calling", "name_hi": "ग्राहक सहायता एवं कॉलिंग", "sector_code": "it_software" },
+    { "code": "social_media_marketing", "name_en": "Social Media & Content", "name_hi": "सोशल मीडिया एवं सामग्री", "sector_code": "it_software" },
+    { "code": "organic_farming", "name_en": "Organic Farming & Soil Care", "name_hi": "जैविक खेती एवं मृदा देखभाल", "sector_code": "agriculture" },
+    { "code": "crop_monitoring", "name_en": "Crop Monitoring & Agritech", "name_hi": "फसल निगरानी एवं एग्रीटेक", "sector_code": "agriculture" },
+    { "code": "dairy_management", "name_en": "Dairy & Livestock Basics", "name_hi": "डेयरी एवं पशुधन प्रबंधन", "sector_code": "agriculture" },
+    { "code": "basic_nursing_care", "name_en": "Patient Care & First Aid", "name_hi": "रोगी देखभाल एवं प्राथमिक चिकित्सा", "sector_code": "healthcare" },
+    { "code": "pharmacy_assistance", "name_en": "Pharmacy & Medicine Inventory", "name_hi": "फार्मेसी एवं दवा सूची", "sector_code": "healthcare" },
+    { "code": "lab_testing_assistance", "name_en": "Lab Testing Sample Assistance", "name_hi": "लैब परीक्षण नमूना सहायता", "sector_code": "healthcare" },
+    { "code": "tally_accounting", "name_en": "Tally & Bookkeeping", "name_hi": "टैली एवं बहीखाता", "sector_code": "banking_finance" },
+    { "code": "gst_filing", "name_en": "GST Filing & Invoicing", "name_hi": "जीएसटी फाइलिंग एवं चालान", "sector_code": "banking_finance" },
+    { "code": "banking_operations", "name_en": "Branch Banking Assistance", "name_hi": "शाखा बैंकिंग सहायता", "sector_code": "banking_finance" },
+    { "code": "inventory_management", "name_en": "Warehouse & Stock Management", "name_hi": "गोदाम एवं स्टॉक प्रबंधन", "sector_code": "retail_logistics" },
+    { "code": "delivery_coordination", "name_en": "Dispatch & Delivery Coordination", "name_hi": "प्रेषण एवं डिलीवरी समन्वय", "sector_code": "retail_logistics" },
+    { "code": "retail_sales", "name_en": "Store Display & Counter Sales", "name_hi": "स्टोर डिस्प्ले एवं काउंटर बिक्री", "sector_code": "retail_logistics" },
+    { "code": "electrical_wiring", "name_en": "Electrical Wiring & Maintenance", "name_hi": "विद्युत वायरिंग एवं रखरखाव", "sector_code": "manufacturing_automotive" },
+    { "code": "arc_welding", "name_en": "Arc Welding & Metal Work", "name_hi": "आर्क वेल्डिंग एवं धातु कार्य", "sector_code": "manufacturing_automotive" },
+    { "code": "cnc_machine_operation", "name_en": "CNC Machine Handling", "name_hi": "सीएनसी मशीन संचालन", "sector_code": "manufacturing_automotive" },
+    { "code": "solar_panel_installation", "name_en": "Solar Rooftop Installation", "name_hi": "सोलर रूफटॉप स्थापना", "sector_code": "renewable_energy" },
+    { "code": "inverter_maintenance", "name_en": "Solar Inverter Maintenance", "name_hi": "सोलर इन्वर्टर रखरखाव", "sector_code": "renewable_energy" },
+    { "code": "front_desk_reception", "name_en": "Front Desk & Guest Relations", "name_hi": "फ्रंट डेस्क एवं अतिथि संबंध", "sector_code": "tourism_hospitality" },
+    { "code": "food_and_beverage", "name_en": "Food Service & Kitchen Basics", "name_hi": "खाद्य सेवा एवं रसोई मूल बातें", "sector_code": "tourism_hospitality" },
+    { "code": "tour_guiding", "name_en": "Local Heritage & Guiding", "name_hi": "स्थानीय विरासत एवं मार्गदर्शन", "sector_code": "tourism_hospitality" },
+    { "code": "garment_tailoring", "name_en": "Garment Tailoring & Stitching", "name_hi": "परिधान सिलाई एवं कढ़ाई", "sector_code": "handicrafts_textiles" },
+    { "code": "handloom_weaving", "name_en": "Handloom Weaving Assistance", "name_hi": "हथकरघा बुनाई सहायता", "sector_code": "handicrafts_textiles" },
+    { "code": "teaching_assistance", "name_en": "Classroom Teaching Assistance", "name_hi": "कक्षा शिक्षण सहायता", "sector_code": "education_skilling" },
+    { "code": "digital_literacy_trainer", "name_en": "Basic Computer Training", "name_hi": "बुनियादी कंप्यूटर प्रशिक्षण", "sector_code": "education_skilling" },
+    { "code": "pandas", "name_en": "Pandas", "name_hi": "पांडस", "sector_code": "it_software" },
+    { "code": "numpy", "name_en": "NumPy", "name_hi": "नम्पाई", "sector_code": "it_software" },
+    { "code": "machine_learning", "name_en": "Machine Learning", "name_hi": "मशीन लर्निंग", "sector_code": "it_software" },
+    { "code": "statistics", "name_en": "Statistics", "name_hi": "सांख्यिकी", "sector_code": "it_software" },
+    { "code": "sql", "name_en": "SQL", "name_hi": "एसक्यूएल", "sector_code": "it_software" },
+    { "code": "react", "name_en": "React", "name_hi": "रिएक्ट", "sector_code": "it_software" },
+    { "code": "typescript", "name_en": "TypeScript", "name_hi": "टाइपस्क्रिप्ट", "sector_code": "it_software" },
+    { "code": "docker", "name_en": "Docker", "name_hi": "डॉकर", "sector_code": "it_software" },
+    { "code": "git", "name_en": "Git", "name_hi": "गिट", "sector_code": "it_software" },
+    { "code": "rest_apis", "name_en": "REST APIs", "name_hi": "रेस्ट एपीआई", "sector_code": "it_software" },
+    { "code": "data_visualization", "name_en": "Data Visualization", "name_hi": "डेटा विज़ुअलाइज़ेशन", "sector_code": "it_software" },
+    { "code": "fastapi", "name_en": "FastAPI", "name_hi": "फास्टएपीआई", "sector_code": "it_software" },
+    { "code": "html_css", "name_en": "HTML & CSS", "name_hi": "एचटीएमएल एवं सीएसएस", "sector_code": "it_software" },
+    { "code": "linux", "name_en": "Linux", "name_hi": "लिनक्स", "sector_code": "it_software" },
+    { "code": "kubernetes", "name_en": "Kubernetes", "name_hi": "कुबेरनेटिस", "sector_code": "it_software" },
+    { "code": "ci_cd", "name_en": "CI/CD", "name_hi": "सीआई/सीडी", "sector_code": "it_software" },
+    { "code": "test_automation", "name_en": "Test Automation", "name_hi": "टेस्ट ऑटोमेशन", "sector_code": "it_software" },
+    { "code": "selenium", "name_en": "Selenium", "name_hi": "सेलेनियम", "sector_code": "it_software" },
+    { "code": "power_bi", "name_en": "Power BI", "name_hi": "पावर बीआई", "sector_code": "it_software" },
+    { "code": "aws", "name_en": "AWS Cloud", "name_hi": "एडब्ल्यूएस क्लाउड", "sector_code": "it_software" },
+    { "code": "java", "name_en": "Java", "name_hi": "जावा", "sector_code": "it_software" },
+    { "code": "pytorch", "name_en": "PyTorch", "name_hi": "पायटॉर्च", "sector_code": "it_software" },
+    { "code": "tensorflow", "name_en": "TensorFlow", "name_hi": "टेंसरफ्लो", "sector_code": "it_software" },
+    { "code": "scikit_learn", "name_en": "scikit-learn", "name_hi": "साइटकिट-लर्न", "sector_code": "it_software" },
+    { "code": "postgresql", "name_en": "PostgreSQL", "name_hi": "पोस्टग्रेएसक्यूएल", "sector_code": "it_software" },
+    { "code": "mongodb", "name_en": "MongoDB", "name_hi": "मोंगोडीबी", "sector_code": "it_software" },
+    { "code": "redis", "name_en": "Redis", "name_hi": "रेडिस", "sector_code": "it_software" },
+    { "code": "graphql", "name_en": "GraphQL", "name_hi": "ग्राफक्यूएल", "sector_code": "it_software" },
+    { "code": "nextjs", "name_en": "Next.js", "name_hi": "नेक्स्ट.जेएस", "sector_code": "it_software" },
+    { "code": "vue", "name_en": "Vue.js", "name_hi": "व्यू.जेएस", "sector_code": "it_software" },
+    { "code": "tailwind", "name_en": "Tailwind CSS", "name_hi": "टेलविंड सीएसएस", "sector_code": "it_software" },
+    { "code": "terraform", "name_en": "Terraform", "name_hi": "टेराफॉर्म", "sector_code": "it_software" },
+    { "code": "ansible", "name_en": "Ansible", "name_hi": "एन्सिबल", "sector_code": "it_software" },
+    { "code": "prometheus", "name_en": "Prometheus", "name_hi": "प्रोमिथियस", "sector_code": "it_software" },
+    { "code": "grafana", "name_en": "Grafana", "name_hi": "ग्राफाना", "sector_code": "it_software" },
+    { "code": "junit", "name_en": "JUnit", "name_hi": "जेयूनिट", "sector_code": "it_software" },
+    { "code": "pytest", "name_en": "pytest", "name_hi": "पाईटेस्ट", "sector_code": "it_software" },
+    { "code": "playwright", "name_en": "Playwright", "name_hi": "प्लेराइट", "sector_code": "it_software" },
+    { "code": "cypress", "name_en": "Cypress", "name_hi": "साइप्रस", "sector_code": "it_software" },
+    { "code": "kafka", "name_en": "Apache Kafka", "name_hi": "अपाचे काफ्का", "sector_code": "it_software" },
+    { "code": "spark", "name_en": "Apache Spark", "name_hi": "अपाचे स्पार्क", "sector_code": "it_software" },
+    { "code": "airflow", "name_en": "Apache Airflow", "name_hi": "अपाचे एयरफ्लो", "sector_code": "it_software" },
+    { "code": "looker", "name_en": "Looker", "name_hi": "लुकर", "sector_code": "it_software" },
+    { "code": "tableau", "name_en": "Tableau", "name_hi": "टैब्लो", "sector_code": "it_software" }
+  ],
+  "states_and_districts": [
+    {
+      "state_en": "Maharashtra",
+      "state_hi": "महाराष्ट्र",
+      "districts": [
+        { "name_en": "Mumbai", "name_hi": "मुंबई" },
+        { "name_en": "Pune", "name_hi": "पुणे" },
+        { "name_en": "Nagpur", "name_hi": "नागपुर" },
+        { "name_en": "Nashik", "name_hi": "नासिक" },
+        { "name_en": "Aurangabad", "name_hi": "औरंगाबाद" }
+      ]
+    },
+    {
+      "state_en": "Uttar Pradesh",
+      "state_hi": "उत्तर प्रदेश",
+      "districts": [
+        { "name_en": "Lucknow", "name_hi": "लखनऊ" },
+        { "name_en": "Varanasi", "name_hi": "वाराणसी" },
+        { "name_en": "Kanpur", "name_hi": "कानपुर" },
+        { "name_en": "Noida", "name_hi": "नोएडा" },
+        { "name_en": "Prayagraj", "name_hi": "प्रयागराज" }
+      ]
+    },
+    {
+      "state_en": "Karnataka",
+      "state_hi": "कर्नाटक",
+      "districts": [
+        { "name_en": "Bengaluru", "name_hi": "बेंगलुरु" },
+        { "name_en": "Mysuru", "name_hi": "मैसूरु" },
+        { "name_en": "Hubballi", "name_hi": "हुब्बली" },
+        { "name_en": "Mangaluru", "name_hi": "मंगलुरु" },
+        { "name_en": "Belagavi", "name_hi": "बेलगावी" }
+      ]
+    },
+    {
+      "state_en": "Odisha",
+      "state_hi": "ओडिशा",
+      "districts": [
+        { "name_en": "Bhubaneswar", "name_hi": "भुवनेश्वर" },
+        { "name_en": "Cuttack", "name_hi": "कटक" },
+        { "name_en": "Rourkela", "name_hi": "राउरकेला" },
+        { "name_en": "Puri", "name_hi": "पुरी" },
+        { "name_en": "Sambalpur", "name_hi": "संबलपुर" }
+      ]
+    },
+    {
+      "state_en": "Delhi",
+      "state_hi": "दिल्ली",
+      "districts": [
+        { "name_en": "New Delhi", "name_hi": "नई दिल्ली" },
+        { "name_en": "North Delhi", "name_hi": "उत्तरी दिल्ली" },
+        { "name_en": "South Delhi", "name_hi": "दक्षिणी दिल्ली" },
+        { "name_en": "East Delhi", "name_hi": "पूर्वी दिल्ली" }
+      ]
+    },
+    {
+      "state_en": "Tamil Nadu",
+      "state_hi": "तमिलनाडु",
+      "districts": [
+        { "name_en": "Chennai", "name_hi": "चेन्नई" },
+        { "name_en": "Coimbatore", "name_hi": "कोयंबटूर" },
+        { "name_en": "Madurai", "name_hi": "मदुरै" },
+        { "name_en": "Tiruchirappalli", "name_hi": "तिरुचिरापल्ली" }
+      ]
+    },
+    {
+      "state_en": "Gujarat",
+      "state_hi": "गुजरात",
+      "districts": [
+        { "name_en": "Ahmedabad", "name_hi": "अहमदाबाद" },
+        { "name_en": "Surat", "name_hi": "सूरत" },
+        { "name_en": "Vadodara", "name_hi": "वडोदरा" },
+        { "name_en": "Rajkot", "name_hi": "राजकोट" }
+      ]
+    },
+    {
+      "state_en": "Bihar",
+      "state_hi": "बिहार",
+      "districts": [
+        { "name_en": "Patna", "name_hi": "पटना" },
+        { "name_en": "Gaya", "name_hi": "गया" },
+        { "name_en": "Muzaffarpur", "name_hi": "मुजफ्फरपुर" },
+        { "name_en": "Bhagalpur", "name_hi": "भागलपुर" }
+      ]
+    },
+    {
+      "state_en": "Madhya Pradesh",
+      "state_hi": "मध्य प्रदेश",
+      "districts": [
+        { "name_en": "Bhopal", "name_hi": "भोपाल" },
+        { "name_en": "Indore", "name_hi": "इंदौर" },
+        { "name_en": "Jabalpur", "name_hi": "जबलपुर" },
+        { "name_en": "Gwalior", "name_hi": "ग्वालियर" }
+      ]
+    },
+    {
+      "state_en": "West Bengal",
+      "state_hi": "पश्चिम बंगाल",
+      "districts": [
+        { "name_en": "Kolkata", "name_hi": "कोलकाता" },
+        { "name_en": "Howrah", "name_hi": "हावड़ा" },
+        { "name_en": "Siliguri", "name_hi": "सिलीगुड़ी" },
+        { "name_en": "Durgapur", "name_hi": "दुर्गापुर" }
+      ]
+    }
+  ],
+  "work_modes": [
+    { "code": "any", "label_en": "Any Mode (Flexible)", "label_hi": "कोई भी मोड (लचीला)" },
+    { "code": "onsite", "label_en": "On-site / In-person", "label_hi": "कार्यालय में (ऑन-साइट)" },
+    { "code": "hybrid", "label_en": "Hybrid (Work + Office)", "label_hi": "हाइब्रिड (घर + कार्यालय)" },
+    { "code": "remote", "label_en": "Remote / Work from Home", "label_hi": "रिमोट (घर से काम)" }
+  ]
+}
